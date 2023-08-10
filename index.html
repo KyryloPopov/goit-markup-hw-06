@@ -65,62 +65,64 @@
             <use href="./images/icons.svg#icon-close"></use>
           </svg>
         </button>
-        <ul class="list mob-menu-list">
-          <li class="mob-menu-item">
-            <a href="./index.html" class="link current">Studio</a>
-          </li>
-          <li class="mob-menu-item">
-            <a href="./portfolio.html" class="link">Portfolio</a>
-          </li>
-          <li class="mob-menu-item">
-            <a href="" class="link">Contacts</a>
-          </li>
-        </ul>
-
-        <address class="mob-address">
-          <ul class="list mob-address-list">
-            <li class="mob-address-item">
-              <a href="tel:+110001111111" class="link mob-phone-link"
-                >+11 (000) 111-11-11</a
-              >
+        <div class="burger-content">
+          <ul class="list mob-menu-list">
+            <li class="mob-menu-item">
+              <a href="./index.html" class="link current">Studio</a>
             </li>
-            <li class="mob-address-item">
-              <a href="mailto:info@devstudio.com" class="link mob-mail-link"
-                >info@devstudio.com</a
-              >
+            <li class="mob-menu-item">
+              <a href="./portfolio.html" class="link">Portfolio</a>
+            </li>
+            <li class="mob-menu-item">
+              <a href="" class="link">Contacts</a>
             </li>
           </ul>
-        </address>
-        <ul class="mob-link-list list">
-          <li class="link-list-item">
-            <a class="mob-link" href="">
-              <svg class="team-link-icon" width="24" height="24">
-                <use href="./images/icons.svg#icon-instagram"></use>
-              </svg>
-            </a>
-          </li>
-          <li class="link-list-item">
-            <a class="mob-link" href="">
-              <svg class="team-link-icon" width="24" height="24">
-                <use href="./images/icons.svg#icon-twitter"></use>
-              </svg>
-            </a>
-          </li>
-          <li class="link-list-item">
-            <a class="mob-link" href="">
-              <svg class="team-link-icon" width="24" height="24">
-                <use href="./images/icons.svg#icon-facebook"></use>
-              </svg>
-            </a>
-          </li>
-          <li class="link-list-item">
-            <a class="mob-link" href="">
-              <svg class="team-link-icon" width="24" height="24">
-                <use href="./images/icons.svg#icon-linkedin"></use>
-              </svg>
-            </a>
-          </li>
-        </ul>
+
+          <address class="mob-address">
+            <ul class="list mob-address-list">
+              <li class="mob-address-item">
+                <a href="tel:+110001111111" class="link mob-phone-link"
+                  >+11 (000) 111-11-11</a
+                >
+              </li>
+              <li class="mob-address-item">
+                <a href="mailto:info@devstudio.com" class="link mob-mail-link"
+                  >info@devstudio.com</a
+                >
+              </li>
+            </ul>
+            <ul class="mob-link-list list">
+              <li class="link-list-item">
+                <a class="mob-link" href="">
+                  <svg class="team-link-icon" width="24" height="24">
+                    <use href="./images/icons.svg#icon-instagram"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="link-list-item">
+                <a class="mob-link" href="">
+                  <svg class="team-link-icon" width="24" height="24">
+                    <use href="./images/icons.svg#icon-twitter"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="link-list-item">
+                <a class="mob-link" href="">
+                  <svg class="team-link-icon" width="24" height="24">
+                    <use href="./images/icons.svg#icon-facebook"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="link-list-item">
+                <a class="mob-link" href="">
+                  <svg class="team-link-icon" width="24" height="24">
+                    <use href="./images/icons.svg#icon-linkedin"></use>
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </address>
+        </div>
       </div>
     </header>
     <main>
@@ -193,7 +195,7 @@
           <ul class="list section-list">
             <li class="section-list-item">
               <img
-                srcset="./images/monitor.jpg 1x, ./images/monitor-2x.jpg"
+                srcset="./images/monitor.jpg 1x, ./images/monitor-2x.jpg 2x"
                 src="./images/monitor.jpg"
                 alt="monitor"
                 width="360"
@@ -202,7 +204,7 @@
             </li>
             <li class="section-list-item">
               <img
-                srcset="./images/phone-1.jpg 1x, ./images/phone-1-2x.jpg"
+                srcset="./images/phone-1.jpg 1x, ./images/phone-1-2x.jpg 2x"
                 src="./images/phone-1.jpg"
                 alt="phone"
                 width="360"
@@ -506,7 +508,7 @@
         <div class="footer-subscription">
           <p class="footer-title">Subscribe</p>
           <form class="footer-form">
-            <label class="form-label">
+            <label class="footer-form-label">
               <input
                 type="email"
                 placeholder="E-mail"
